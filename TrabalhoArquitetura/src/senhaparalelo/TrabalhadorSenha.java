@@ -132,7 +132,7 @@ public class TrabalhadorSenha extends Thread {
             //descompactar arquivo com senha
             try {
                 //este é o arquivo que vamos descompactar
-                ZipFile zipFile = new ZipFile(new File("C:\\Users\\wesle\\Downloads\\ZIP4J\\EncontrarSenha"));
+                ZipFile zipFile = new ZipFile(new File("C:\\Users\\Downloads\\ZIP4J\\EncontrarSenha"));
                 if (zipFile.isEncrypted()) {
                     //tentando a senha atual
 
@@ -144,7 +144,7 @@ public class TrabalhadorSenha extends Thread {
                 for (int i = 0; i < fileHeaderList.size(); i++) {
                     FileHeader fileHeader = (FileHeader) fileHeaderList.get(i);
 
-                    zipFile.extractFile(fileHeader, "C:\\Users\\wesle\\Downloads");
+                    zipFile.extractFile(fileHeader, "C:\\Users\\Downloads");
                     System.out.println("Sucesso essa é a senha");
                     imprimeSenha(this.senha);
 
