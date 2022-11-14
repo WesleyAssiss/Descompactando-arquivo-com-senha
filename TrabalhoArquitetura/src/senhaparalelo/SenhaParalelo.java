@@ -1,3 +1,7 @@
+/*
+Wesley Elbert Assis
+*/
+
 package senhaparalelo;
 
 public class SenhaParalelo {
