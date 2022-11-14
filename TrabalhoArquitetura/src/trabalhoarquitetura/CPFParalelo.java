@@ -1,3 +1,7 @@
+/*
+Wesley Elbert Assis
+*/
+
 package trabalhoarquitetura;
 
 public class CPFParalelo {
